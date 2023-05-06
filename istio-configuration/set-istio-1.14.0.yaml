@@ -74,8 +74,8 @@ spec:
         max_path_tag_length: 256
         zipkin:
           address: zipkin.istio-system:9411
-        datadog:
-          address: $(HOST_IP):8126
+        # datadog:
+        #   address: $(HOST_IP):8126
     extensionProviders:
     - name: otel
       envoyOtelAls:

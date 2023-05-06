@@ -120,7 +120,7 @@ spec:
       sts:
         servicePort: 0
       tracer:
-        datadog: {}
+        # datadog: {}
         lightstep: {}
         stackdriver: {}
         zipkin: {}
