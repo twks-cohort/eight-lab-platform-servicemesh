@@ -4,13 +4,7 @@
   "cert_manager_chart_version": "1.8.2",
   "kiali_version": "v1.56.1",
 
-  "cluster_domains": [
-    "twdps.digital",
-    "sandbox-us-east-2.twdps.digital",
-    "sandbox-us-east-2.twdps.io",
-    "preview.twdps.digital",
-    "preview.twdps.io"
-  ],
+  "cluster_domains": ["nonprod-us-east-2.cdicohorts-eight.com"],
   "issuerEndpoint": "https://acme-v02.api.letsencrypt.org/directory",
   "issuerEmail": "twdps.io@gmail.com"
 }
