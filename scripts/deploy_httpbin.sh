@@ -13,7 +13,7 @@ spec:
   hosts:
   - "httpbin.$CLUSTER.cdicohorts-eight.com"
   gateways:
-  - istio-system/$CLUSTER-cdicohorts-eight.com-gateway
+  - istio-system/$CLUSTER-cdicohorts-eight-com-gateway
   http:
     - route:
       - destination:
